@@ -19,7 +19,7 @@ Autolinker.matcher.Email = Autolinker.Util.extend( Autolinker.matcher.Matcher, {
 	 */
 	matcherRegex : (function() {
 		var alphaNumericChars = Autolinker.RegexLib.alphaNumericCharsStr,
-			specialCharacters = '!#$%&\'*+\\-\\/=?^_`{|}~',
+			specialCharacters = '!#$%&\'*+\\-\\/=?^\\_`{|}~',
 			restrictedSpecialCharacters = '\\s"(),:;<>@\\[\\]',
 			validCharacters = alphaNumericChars + specialCharacters,
 			validRestrictedCharacters = validCharacters + restrictedSpecialCharacters,
